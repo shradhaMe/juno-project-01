@@ -1,0 +1,380 @@
+/* ---------------- section-one----------- */
+.whoHarper{
+  background-color:#f6f6f6;
+  padding:100px 0px;
+}
+
+.flexOne{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.flexOne div{
+  width:50%;
+}
+
+/* ---------------background image-------------------- */
+.building{
+  background-image: url(../assets/home-image-2.jpg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:16%;
+}
+
+/* ---------------------secton two icons -------------- */
+.twoIcons{
+ padding:10% 0;
+}
+.flexTwo{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexTwo div{
+  width: 50%;
+  margin-bottom: 2%;
+}
+
+.flexIcons{
+  display: flex;
+  align-items: baseline;
+}
+
+.flexIcons div:first-child{
+  width: 13%; 
+}
+
+.flexIcons div:last-child{
+  width: 87%;
+}
+
+.flexIcons i{
+border:1px solid #68b0c1;
+padding:15px;
+border-radius: 50%;
+background-color:#68b0c1;
+}
+
+/* ------------------------section three harpers travels------------ */
+
+.flexThree{
+  display:flex;
+  flex-wrap: wrap;
+}
+.flexThree div{
+  width:50%;
+}
+
+.travelImage img{
+  box-shadow: 20px 20px #68b0c1, -155px 20px #68b0c1;
+}
+
+.travelContent{
+  padding:60px;
+}
+
+/* ----------------------section-four-favourite things-------------------- */
+
+.flexFour{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+
+.flexFour div{
+  width:50%;
+  margin-top: 2%;
+}
+
+.flexFour img{
+  box-shadow: 106px 32px #b9dde7;
+}
+
+.flexFour .readMore{
+  margin-top: 6%;
+  margin-left: 60%;
+}
+
+/* -----------------------section-five-Journey------------------------ */
+
+.journey{
+  background-color:#f6f6f6;
+  padding:8% 0;
+}
+
+.flexFive{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexFive div{
+  width:50%;
+}
+
+.flexFive img{
+  box-shadow: 18px 16px #227284;
+  margin-left: 26%;
+}
+
+.flexFive button{
+  margin-top: 2%;
+}
+
+/* --------------------------section-six-images----------------------- */
+.flexSix{
+  display:flex;
+  padding:8% 0;
+
+}
+
+.flexSix li{
+  margin:0 2%;
+}
+
+// ---------------blog styles-----------
+
+
+
+.blogNav{
+  background-color: #b9dde7; 
+}
+
+.blogUl{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.blogNav li{
+ margin:2%;
+}
+ 
+
+.blogOne{
+  position: relative;
+  
+}
+
+.blogOne img{
+  background-size: cover;
+  width:100%;
+}
+
+.blogOne h2{
+  position:absolute;
+  left:20%;
+  bottom: -25%;
+  font-size: 80px;
+}
+
+.blogFlex{
+  display:flex;
+  flex-wrap: wrap;
+  padding-top: 10%;
+ 
+}
+  
+.blogAside{
+  width:35%;
+}
+
+.blogContent{
+  width:65%;
+}
+
+.blogMain{
+  background-color: #f6f6f6;
+  margin-top: 0;
+}
+
+.asideImg{
+  background-color: white;
+  padding:12%;
+  margin-right: 12%;
+}
+
+.asidePosts{
+  background-color: white;
+  padding:12%;
+  margin: 9% 12% 0 0;
+
+}
+
+.asidePosts li{
+  list-style: inside;
+}
+
+.blogDestinations{
+  background-color: white;
+  padding:5%;
+  border-bottom: 6px solid #227284;
+}
+
+.blogMaggie,
+.blogDaisy{
+  display:flex;
+  margin-top: 4%;
+  background-color: white;
+}
+
+.blogMaggieImg,
+.blogDaisyImg{
+  width:20%;
+  padding:4%;
+}
+
+.blogMaggieContent,
+.blogDaisyContent{
+  width:80%;
+  padding:4%;
+}
+
+.blogDaisy{
+  border-bottom: 6px solid #227284;
+}
+
+.formFlex{
+  display:flex; 
+}
+
+.formFlex input{
+  width:50%;
+  margin:2% 1%;
+  padding:4% 1%;
+  border:none;
+  &::placeholder{
+        font-size: 20px;
+        color: black;
+       
+    }
+}
+
+ .contactForm textarea{
+  min-height:130px;
+  border:1px solid #eee;
+  font-family: 'Cabin', sans-serif;
+  padding: 0 0 10px 5px;
+  &::placeholder{
+        font-size: 20px;
+        color: black;
+       text-align: left;
+        padding:2%;
+    }
+}
+
+.contactForm button{
+  background-color:#f38d8d;
+  padding:10px 21px;
+  border:none;
+  width:100%;
+  margin:2% 0 5% 0;
+}
+
+// --------------------------Contact page styles------------------------------ 
+.contactNav{
+  background-color: #b9dde7; 
+}
+
+.contactUl{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contactNav li{
+ margin:2%;
+}
+
+.contactOne{
+  position: relative;
+  
+}
+
+.contactOne img{
+  background-size: cover;
+  width:100%;
+}
+
+.contactOne h2{
+  position:absolute;
+  left:20%;
+  bottom: -21%;
+  font-size: 80px;
+}
+
+.contactMeMain{
+background-color: #f6f6f6;
+
+}
+
+.contactFlex{
+  display:flex;
+  
+}
+
+.contactFlex div{
+  width:40%;
+  
+}
+
+.contactFlex form{
+  width:60%;
+}
+
+.socialContact{
+  padding:2%;
+  margin:5%;
+  background-color: white;
+} 
+
+.socialIcons i{
+margin-left: 6%;
+font-size: 23px;
+color:#227284;
+}
+
+.contactInfo a{
+  color:black;
+  font-style: normal;
+}
+
+.contactInfo p{
+  font-style: normal;
+}
+
+
+.formMeFlex{
+  display:flex;
+}
+
+.formMeFlex input{
+padding:5% 7%;
+margin:21% 9% 2% 2%;
+color:white;
+border:none;
+&::placeholder{
+        font-size: 20px;
+        color: black;
+       
+    }
+}
+
+.contactMeForm textarea{
+border:none;
+width:100%;
+margin-top:2%;
+&::placeholder{
+        font-size: 20px;
+        color: black;
+       
+    }
+}
+
+.contactMeForm button{
+  background-color:#f38d8d;
+  padding:10px 21px;
+  border:none;
+  width:100%;
+  margin:2% 0 5% 0;
+}

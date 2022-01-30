@@ -1,0 +1,63 @@
+/* -----------nav styles----------- */
+
+nav li:nth-of-type(3){
+  font-size: 40px;
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home li{
+  padding: 30px 30px 50px 30px;
+}
+
+
+nav li a:hover{
+  color: #f6f6f6;
+}
+
+nav li:hover{
+  color: #f6f6f6;
+}
+
+/* -------& and color $white --------- */
+
+nav li:focus{
+  color:#f6f6f6;
+}
+
+nav li a:focus{
+  color:#f6f6f6;
+}
+
+.headerHarper{
+  background-color:#b9dde7;
+  height:78vh;
+}
+
+.headerImgContainer img{
+  box-shadow: 16px 17px 0px 3px white;
+  margin:20px;
+}
+
+.headerImg{
+  display:flex;
+  
+}
+
+.headerContent{
+  width:58%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+}
+
+.circle{
+  position:absolute;
+  right:24px;
+  top:221px;
+}

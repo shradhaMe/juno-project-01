@@ -1,0 +1,94 @@
+/* ------------Global styles------------ */
+/* #171717 $black
+#f38d8d $pink
+#68b0c1 $greyblue
+#227284 $duskblue
+#b9dde7 $lightblue
+#f6f6f6 $white */
+
+
+/* ---------_baseStyles.scss--------- */
+html {
+    font-size: 125%;
+}
+
+h1 {
+    font-size: 157px;
+    line-height: 92px;   
+}
+
+h2{
+  font-size:42px;
+}
+
+h3{
+  font-size: 32px;
+}
+
+h4{
+  font-size:24;
+}
+
+button{
+font-size:20px;
+line-height: 32px;
+}
+
+p{
+  font-size:20px;
+}
+
+h1,h2,h3,h4,button,nav{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Oswald', sans-serif;;
+}
+
+nav{
+  line-height: 29px;
+}
+
+ul, li, a, input {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+p{
+  font-family: 'Cabin', sans-serif;
+}
+
+.wrapper{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.findMore{
+  background-color:#f38d8d;
+  padding:10px 30px;
+  border:none;
+}
+
+.readMore{
+  background-color:#f38d8d;
+  padding:10px 21px;
+  border:none;
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  color:black;
+}

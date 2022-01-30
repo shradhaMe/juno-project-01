@@ -1,0 +1,147 @@
+/* -----------media queries--------------- */
+
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+  .wrapper {
+  max-width: 960px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.headerImg{
+  flex-direction: column;
+}
+
+.headerImgContainer,
+.headerContent{
+  width:100%;
+}
+
+h1{
+  font-size: 40px;
+}
+
+.circle{
+  display:none;
+}
+
+.flexOne,.flexTwo,.flexThree,.flexFour,.flexFive,.flexSix{
+  flex-direction: column;
+}
+
+.empty,
+.content{
+  width:100%;
+  align-items: center;
+}
+// .flexOne div{
+//   width:100%;
+//   align-items: center;
+//   margin:0;
+// }
+
+.flexTwo div{
+  width:100%;
+  align-items: center;
+}
+
+.flexThree div{
+  width:100%;
+  align-items: center;
+}
+
+.flexFour div{
+  width:100%;
+  align-items: center;
+}
+
+.flexFive div{
+  width:100%;
+  align-items: center;
+}
+
+.flexSix{
+  width:100%;
+  align-items: center;
+}
+
+p{
+  font-size: 15px;
+}
+.blogFlex{
+  display: flex;
+  flex-direction: column;
+}
+
+.blogAside{
+  width:100%;
+  margin-bottom:9%;
+}
+
+.blogContent{
+  width:100%;
+}
+
+.contactFlex{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+    
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+  .home{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blogUl{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blogOne h2{
+    font-size: 40px;
+    align-items: center;
+  }
+
+  .contactUl{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactOne h2{
+    font-size: 40px;
+    align-items: center;
+  }
+
+  .contactFlex{
+    display:flex;
+    flex-direction: column;
+  }
+
+
+  .socialContact{
+    width:100%;
+  }
+
+  .contactMeForm{
+    width:100%;
+  }
+
+  .formMeFlex{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+}
